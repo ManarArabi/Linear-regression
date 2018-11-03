@@ -51,7 +51,7 @@ def main():
         b.append(temp_x[1])
 
         #calc y predicted
-        Y_pred -= temp_x[1]*X[i]
+        Y_pred += temp_x[1]*X[i]
 
     print ( "Equation coefficients : \n" )
 
